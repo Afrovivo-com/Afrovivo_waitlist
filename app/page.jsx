@@ -1,4 +1,5 @@
 import React from "react";
+import '../app/globals.css'
 import Img from "../public/waitlistLogo.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -85,7 +86,7 @@ function page() {
           >
             Join the Afrovivo community today!
           </Link>
-          <div className="space-x-7">
+          {/* <div className="space-x-7">
             <input
               type="text"
               placeholder="Enter your email address"
@@ -99,7 +100,7 @@ function page() {
             >
               Get Started
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="flex justify-between border-2 border-slate-300 rounded-md p-7 mr-12 align-middle">
           <Image src={Img3} alt="" />
