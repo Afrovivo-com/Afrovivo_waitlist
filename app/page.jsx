@@ -17,7 +17,7 @@ function page() {
         <Image src={Img} alt="" />
       </div>
       <div className="flex justify-center m-0">
-        <p className="inline border-2 rounded-full border-blue-400 text-center font-medium text-xl p-2">
+        <p className="inline border-2 rounded-full  border-blue-400 text-center font-medium text-xl md:text-lg sm:text-sm p-2">
           Sell and buy your products here at ease
         </p>
       </div>
