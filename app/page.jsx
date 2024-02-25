@@ -13,7 +13,7 @@ const date = new Date().getFullYear();
 
 function page() {
   return <>
-  <div className="m-0">
+  <div className="m-0 ">
         <Image src={Img} alt="" />
       </div>
       <div className="flex justify-center m-0">
@@ -22,7 +22,7 @@ function page() {
         </p>
       </div>
       <div className="flex justify-center justify-items-cente m-5 ">
-        <p className="text-6xl font-extrabold text-center	w-4/5 leading-[4rem]">
+        <p className="lg:text-6xl lg:font-extrabold md:font-bold sm:font-semibold md:text-3xl sm:text-4xl  text-center	w-4/5 leading-[4rem]">
           Experience a platform that helps creatives sell their <br />
           <span className="text-blue-400 ml-1">digital products!</span>
         </p>
@@ -49,7 +49,7 @@ function page() {
           Sign Up Now
         </Link>
       </div>
-      <div className="flex justify-center  p-5 bg-blue-400 text-white mt-10">
+      <div className="2xl:flex sm:flex-col justify-center  p-5 bg-blue-400 text-white mt-10">
         <div className="p-5 ml-10 mt-5 ">
           <p className="text-3xl ml-0 text-center font-bold">
             Connect ⚡ Link with fans at Afrovivo!
@@ -61,10 +61,10 @@ function page() {
         </div>
         <div className="flex justify-between border-2 border-slate-300 rounded-md p-7 mr-12 align-middle">
           <div>
-            <Image src={Img1} alt="" />
+            <Image src={Img1} alt="" layout="responsive" className="lg:size-auto" />
           </div>
           <div>
-            <Image src={Img2} alt="" />
+            <Image src={Img2} alt="" layout="reponsive" />
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ function page() {
           </div> */}
         </div>
         <div className="flex justify-between border-2 border-slate-300 rounded-md p-7 mr-12 align-middle">
-          <Image src={Img3} alt="" />
+          <Image src={Img3} alt="" layout="reponsive" className="size-auto"  />
         </div>
       </div><footer className="bg-blue-400 mt-10">
         <div className="flex justify-between content-center">
